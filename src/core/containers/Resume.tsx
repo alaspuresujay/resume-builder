@@ -31,6 +31,7 @@ export function Resume() {
   const Template = useTemplates((state: any) => state.template);
   const zoom = useZoom((state: any) => state.zoom);
   const theme = useThemes((state: any) => state.theme);
+  console.log(Template);
 
   return (
     <ThemeProvider theme={theme}>

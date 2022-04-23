@@ -44,7 +44,7 @@ const RightSection = styled(FlexCol)`
   flex-basis: 34%;
   row-gap: 20px;
   height: 100%;
-  justify-content: space-between;
+  justify-content: flex-start;
 `;
 
 const labelsIcon = [
@@ -87,7 +87,7 @@ export default function ProfessionalTemplate() {
       title: labels[0],
       icon: labelsIcon[0],
       component: <Exp companies={experience.companies} />,
-      styles: { flexGrow: 1 },
+      styles: { flexGrow: 0.5 },
     },
     {
       title: labels[1],
@@ -114,7 +114,7 @@ export default function ProfessionalTemplate() {
     {
       title: labels[5],
       icon: labelsIcon[5],
-      component: <RatedBars items={[...languages, ...frameworks]} />,
+      component: <UnratedTabs items={[...languages, ...frameworks]} />,
     },
     {
       title: labels[6],

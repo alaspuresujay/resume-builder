@@ -22,17 +22,20 @@ export function Intro({ intro, labels }: any) {
     <Flex jc="space-between">
       <FlexCol rGap="5px">
         <Role>{intro.label}</Role>
-        {labels[10] && (
+        {labels[11] && (
           <div>
-            {labels[10]}:&nbsp;
+            {labels[11]}:&nbsp;
             <strong>{intro.relExp}</strong>
           </div>
         )}
-        {labels[11] && (
+        {/* {labels[11] && (
           <div>
             {labels[11]}:&nbsp;{intro.totalExp}
           </div>
-        )}
+        )} */}
+        <a href="https://www.linkedin.com/in/alaspuresujay/">
+          <Contact icon={getIcon('linkedin')} value={'linkedin.com/in/alaspuresujay/'} />
+        </a>
       </FlexCol>
 
       <FlexCol jc="flex-end" rGap="5px">

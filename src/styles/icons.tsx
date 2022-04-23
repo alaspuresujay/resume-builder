@@ -20,6 +20,7 @@ import {
   MdSave,
   MdCloudUpload,
   MdPrint,
+  MdOutlineTravelExplore,
 } from 'react-icons/md';
 import {
   SiBehance,
@@ -56,6 +57,7 @@ const icons = new Map([
   ['codeforces', <SiCodeforces />],
   ['behance', <SiBehance />],
   ['dribbble', <SiDribbble />],
+  ['website', <MdOutlineTravelExplore />],
   ['hashnode', <SiHashnode />],
   ['squarespace', <SiSquarespace />],
 

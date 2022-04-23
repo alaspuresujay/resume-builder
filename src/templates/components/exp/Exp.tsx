@@ -17,6 +17,10 @@ const FlexTimeline = styled(Timeline)`
     padding-left: 16px;
     margin-bottom: 0;
     font-size: 0.8rem;
+    li {
+      /* line-height: 16px; */
+      margin-bottom: 3px;
+    }
   }
 `;
 

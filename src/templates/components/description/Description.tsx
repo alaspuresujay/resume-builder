@@ -18,6 +18,9 @@ const MarkdownHolder = styled.div`
   ul {
     margin: 0;
     padding-left: 1rem;
+    li {
+      margin-bottom: 2px;
+    }
   }
 `;
 
