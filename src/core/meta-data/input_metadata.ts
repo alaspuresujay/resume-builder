@@ -127,6 +127,11 @@ export const SOCIAL_METADATA = [
     type: 'Input',
     value: 'dribbble',
   },
+  {
+    label: 'Portfolio',
+    type: 'Input',
+    value: 'website',
+  },
 ];
 
 export const ACHIEVEMNT_METADATA = [

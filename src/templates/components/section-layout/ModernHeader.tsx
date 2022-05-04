@@ -75,7 +75,7 @@ export function ModernHeaderIntro({ styles, title, profiles, children }: any) {
       </FlexHVC>
       <Flex className="social-icons">
         {profiles
-          .filter((profile) => profile.url)
+          .filter((profile) => profile.url && profile.network !== 'linkedin')
           .map((profile: any) => (
             <a href={profile.url} key={profile.url}>
               {getIcon(profile.network)}

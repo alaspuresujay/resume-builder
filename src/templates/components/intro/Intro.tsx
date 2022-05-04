@@ -36,9 +36,11 @@ export function Intro({ intro, labels }: any) {
             {labels[11]}:&nbsp;{intro.totalExp}
           </div>
         )} */}
-        <a href={lnUrl}>
-          <Contact icon={getIcon('linkedin')} value={`linkedin.com/in/${lnUserName}/`} />
-        </a>
+        {lnUrl && (
+          <a href={lnUrl}>
+            <Contact icon={getIcon('linkedin')} value={`linkedin.com/in/${lnUserName}/`} />
+          </a>
+        )}
       </FlexCol>
 
       <FlexCol jc="flex-end" rGap="5px">
