@@ -18,6 +18,9 @@ const Contact = ({ icon, value }: any) => (
 );
 
 export function Intro({ intro, labels }: any) {
+  const { username: lnUserName, url: lnUrl } = intro.profiles.find(
+    (profile: any) => profile.network === 'linkedin'
+  );
   return (
     <Flex jc="space-between">
       <FlexCol rGap="5px">
@@ -33,8 +36,8 @@ export function Intro({ intro, labels }: any) {
             {labels[11]}:&nbsp;{intro.totalExp}
           </div>
         )} */}
-        <a href="https://www.linkedin.com/in/alaspuresujay/">
-          <Contact icon={getIcon('linkedin')} value={'linkedin.com/in/alaspuresujay/'} />
+        <a href={lnUrl}>
+          <Contact icon={getIcon('linkedin')} value={`linkedin.com/in/${lnUserName}/`} />
         </a>
       </FlexCol>
 

@@ -36,13 +36,13 @@ const ResumeContainer = styled(Flex)`
 
 const LeftSection = styled(FlexCol)`
   flex-basis: 66%;
-  row-gap: 20px;
+  row-gap: 30px;
   height: 100%;
 `;
 
 const RightSection = styled(FlexCol)`
   flex-basis: 34%;
-  row-gap: 20px;
+  row-gap: 30px;
   height: 100%;
   justify-content: flex-start;
 `;
