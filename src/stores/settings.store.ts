@@ -18,6 +18,9 @@ const LegacyTemplate = dynamic(() => import('src/templates/layouts/LegacyTemplat
 const Template3 = dynamic(() => import('src/templates/layouts/Template3'), {
   ssr: false,
 });
+// const Template4 = dynamic(() => import('src/templates/layouts/Template4'), {
+//   ssr: false,
+// });
 
 export const templates = [
   ProfessionalTemplate,
