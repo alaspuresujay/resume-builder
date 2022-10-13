@@ -9,7 +9,6 @@ import {
 } from 'src/templates/components/section-layout/ModernHeader';
 import { Intro } from 'src/templates/components/intro/Intro';
 import { Description } from 'src/templates/components/description/Description';
-import { RatedBars } from 'src/templates/components/skills/RatedBars';
 import { UnratedTabs } from 'src/templates/components/skills/UnratedTabs';
 import { Exp } from 'src/templates/components/exp/Exp';
 import { EduSection } from 'src/templates/components/education/EduSection';

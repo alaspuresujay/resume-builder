@@ -20,6 +20,11 @@ export const INTRO_METADATA = [
     value: 'email',
   },
   {
+    label: 'Linkedin',
+    type: 'Input',
+    value: 'linkedin',
+  },
+  {
     label: 'Phone',
     type: 'Input',
     value: 'phone',

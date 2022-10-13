@@ -5,8 +5,9 @@
     "image": "",
     "email": "alaspuresujay@gmail.com",
     "phone": "+91 8888606191",
+    "linkedin": "www.linkedin.com/in/alaspuresujay/",
     "url": "www.github.com/alaspuresujay/",
-    "summary": "I am a web developer having expertise in front-end and mobile app development. I design and develop mobile applications using the latest technologies to deliver the product with quality code.\n",
+    "summary": "I am a web developer having 3+ years of experience in front-end and mobile app development. \n",
     "location": {
       "address": "",
       "postalCode": "",
@@ -16,7 +17,7 @@
     },
     "relExp": "3 years",
     "totalExp": "3 years",
-    "objective": "I like to go the extra mile to put together well-written code which is fit for purpose, and functionally correct. On a personal level, I am loaded with energy, passion, and patience.",
+    "objective": "I like to go the extra mile to put together well-developed code which is fit for purpose, and functionally correct. On a personal level, I am loaded with energy, passion, and patience.",
     "profiles": [
       {
         "network": "linkedin",
@@ -35,8 +36,8 @@
       },
       {
         "network": "leetcode",
-        "username": "alaspuresujay",
-        "url": "https://leetcode.com/alaspuresujay/"
+        "username": "",
+        "url": ""
       },
       {
         "network": "medium",
@@ -71,26 +72,34 @@
         "level": 5
       },
       {
+        "name": "Typescript",
+        "level": 5
+      },
+      {
         "name": "HTML5",
         "level": 5
       },
       {
         "name": "CSS",
-        "level": 5
+        "level": 4.5
       },
       {
         "name": "Python",
-        "level": 3.5
+        "level": 3
+      },
+      {
+        "name": "C/C++",
+        "level": 1
       }
     ],
     "frameworks": [
       {
-        "name": "React",
+        "name": "ReactJs",
         "level": 4
       },
       {
         "name": "React Native",
-        "level": 3.5
+        "level": 4.5
       },
       {
         "name": "Selenium",
@@ -103,15 +112,15 @@
     ],
     "libraries": [
       {
-        "name": "jQuery",
-        "level": 3
-      },
-      {
         "name": "Redux",
         "level": 3
       },
       {
         "name": "Jest",
+        "level": 1
+      },
+      {
+        "name": "REST API",
         "level": 1
       }
     ],
@@ -119,6 +128,10 @@
       {
         "name": "Firebase",
         "level": 3
+      },
+      {
+        "name": "MongoDB Realm",
+        "level": 1
       }
     ],
     "technologies": [
@@ -163,15 +176,19 @@
         "level": 3
       },
       {
+        "name": "Postman",
+        "level": 1
+      },
+      {
         "name": "Netlify",
         "level": 1
       },
       {
-        "name": "Wordpress",
+        "name": "Figma",
         "level": 1
       },
       {
-        "name": "Figma",
+        "name": "XCode",
         "level": 1
       }
     ]
@@ -185,7 +202,7 @@
       "endDate": "present",
       "years": "",
       "highlights": [],
-      "summary": "* Worked with a team of Developers to build a Super app for Stanza Living. An ambitious startup working in Living Space\n* Communicate with multi-disciplinary teams of developers, designers, producers, and clients on a daily basis"
+      "summary": "* Implemented the **offline first functionality** from scratch using **MongoDB Realm** database which reduces the app latency by **90%**\n* Managed a process of re-engineering mobile Applications to improve end-to-end service processes.\n* Communicate with multi-disciplinary teams of developers, designers, producers, and clients on a daily basis\n* Tech stack worked on -> **React-Native, ReactJs, Typescript, REST APIs**"
     },
     {
       "name": "Indivisible Solutions",
@@ -195,7 +212,7 @@
       "endDate": "Dec 2021",
       "years": "",
       "highlights": [],
-      "summary": "* Developed and shipped highly interactive android applications for Home Automation [**SmartHM**](https://play.google.com/store/apps/details?id=com.indivisible.smarthm)\n* Worked on various Framework and CMS such as React, **React Native**, WordPress CMS, Firebase, etc\n* Architected and implemented the front-end of company website and various internal tools."
+      "summary": "* Co-founded a startup aiming to develop affordable **smart home solution** products\n* Developed and shipped highly interactive mobile applications [**SmartHM**](https://play.google.com/store/apps/details?id=com.indivisible.smarthm)\n* Worked on various Framework and CMS such as React, **React Native**, WordPress CMS, Firebase, **MS Appcenter**, etc\n* Architected and implemented the front-end of company website and various internal tools."
     },
     {
       "name": "TCS",
@@ -205,7 +222,7 @@
       "endDate": "Apr 2021",
       "years": "",
       "highlights": [],
-      "summary": "* Developed modern, performant, and robust code for a diverse array of client and internal projects.\n* Took ownership of the development of an Automation testing utility using Selenium Framework in Java. This helps in reducing the manual testing efforts by **90%** and soft saving\n**$15000 annually**.\n* Worked with a variety of different languages, frameworks, and tools such as **Selenium**, **Bash Script**, **Jenkins**, **JavaScript**, React, etc."
+      "summary": "* Developed modern, performant, and robust code for a diverse array of client and internal projects.\n* Took **ownership of the development of an Automation testing utility** using Selenium Framework in Java. This helps in reducing the manual testing efforts by **90%** and soft saving\n**$15000 annually**.\n* Worked with a variety of different languages, frameworks, and tools such as **Selenium**, **Bash Script**, **Jenkins**, **JavaScript**, React, etc."
     }
   ],
   "education": [
@@ -221,8 +238,8 @@
     }
   ],
   "activities": {
-    "involvements": "* **Smart StreetLight System** - An IoT Based StreetLight System with cloud Data Analysis. built using Embedded C, ReactJs, and Firebase. (**Patent# 202121025261**)\n* **[SmartHM](https://play.google.com/store/apps/details?id=com.indivisible.smarthm)** - Commercial Android application built to control the home appliances using IoT Technology. Developed using React Native, and Firebase.\n * Implemented automated testing tools using selenium for more diligent levels of regression testing, negative testing, error/bug retests, and usability.\n * **Research paper published in [IJARCCE](https://ijarcce.com/papers/two-way-wireless-mesh-network-data-sharing-between-esp8266-without-internet/)** -  Two Way Wireless Mesh Network Data Sharing between ESP8266. (paper ID: IJARCCE.2019.8805)",
-    "achievements": "* **Special Achievement award** for consistently exceeding the performance by TCS\n* Recognition of zero defect delivery\n* **5 Star** Rating of the first anniversary by TCS\n* Winner of Robotics Competition at VNIT, Nagpur"
+    "involvements": "* **[SmartHM](https://play.google.com/store/apps/details?id=com.indivisible.smarthm)** - An application built to control the home appliances using IoT Technology. Developed using **React Native, MS Appcenter**, and Firebase.\n * Implemented an automation testing utility using selenium for more diligent levels of regression testing, negative testing, error/bug retests, and usability.\n * **Research paper published in [IJARCCE](https://ijarcce.com/papers/two-way-wireless-mesh-network-data-sharing-between-esp8266-without-internet/)** -  Two Way Wireless Mesh Network Data Sharing between ESP8266. **(paper ID: IJARCCE.2019.8805)**",
+    "achievements": "* **Patent** - IoT based Smart StreetLight System #202121025261\n*  **Special Achievement award** for consistently exceeding the performance by TCS\n* Recognition of zero defect delivery\n* **5 Star** Rating of the first anniversary by TCS\n* Winner of Robotics Competition at VNIT, Nagpur"
   },
   "volunteer": [],
   "awards": []

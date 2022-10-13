@@ -5,19 +5,23 @@ import { Flex, FlexHVC } from 'src/styles/styles';
 import { getIcon } from 'src/styles/icons';
 
 const SectionHolder = styled.div`
-  border: 1px solid ${(props) => Color(props.theme.fontColor).alpha(0.25).toString()};
+  /* border: 1px solid ${(props) => Color(props.theme.fontColor).alpha(0.25).toString()}; */
   border-radius: 5px;
   padding: 15px 10px 10px 10px;
-  position: relative;
+  /* position: relative; */
 
   .header {
-    position: absolute;
-    top: -10px;
-    left: 8px;
+    /* position: absolute; */
+    /* top: -10px; */
+    /* left: 8px; */
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
     background: ${(props) => props.theme.backgroundColor};
     padding: 0 5px;
     font-weight: bold;
     color: ${(props) => props.theme.primaryColor};
+    border-bottom: 1px solid ${(props) => Color(props.theme.fontColor).alpha(0.25).toString()};
     .header__title {
       margin: 0;
       font-size: 14px;
@@ -63,10 +67,10 @@ const SectionIntroHolder = styled(SectionHolder)`
 export function ModernHeader({ styles, title, icon, children }: any) {
   return (
     <SectionHolder style={styles}>
-      <FlexHVC className="header" cGap="5px">
+      <div className="header">
         {icon}
         <div className="header__title">{title}</div>
-      </FlexHVC>
+      </div>
       {children}
     </SectionHolder>
   );

@@ -42,7 +42,7 @@ export const templatesName = [
 
 export const useTemplates = create((set: any) => ({
   index: 0,
-  template: templates[0],
+  template: templates[3],
 
   setTemplate: (index: number) => set({ index, template: templates[index] }),
 }));
