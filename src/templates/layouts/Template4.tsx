@@ -17,11 +17,12 @@ import { Exp } from '../components/template4/exp';
 import { SkillGroup } from '../components/skills/SkillGroup';
 import { Description } from '../components/description/Description';
 import { ModernHeader } from '../components/template4/shared/Section/Section';
+import EduNLinks from '../components/template4/EduNLinks';
 
 const ResumeContainer = styled(Flex)`
   /* height: 100%; */
-  padding: 20px;
-  row-gap: 20px;
+  padding: 0 16px;
+  row-gap: 10px;
   display: flex;
   flex-direction: column;
   color: ${(props) => props.theme.fontColor};
@@ -103,7 +104,7 @@ export function Template4() {
     {
       title: labels[9],
       icon: labelsIcon[9],
-      component: <Education data={education} />,
+      component: <EduNLinks profiles={intro.profiles} education={education} />,
     },
     {
       title: labels[2],

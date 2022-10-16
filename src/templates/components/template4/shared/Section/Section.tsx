@@ -7,7 +7,7 @@ import { getIcon } from 'src/styles/icons';
 const SectionHolder = styled.div`
   /* border: 1px solid ${(props) => Color(props.theme.fontColor).alpha(0.25).toString()}; */
   border-radius: 5px;
-  padding: 15px 10px 10px 10px;
+  padding: 0 10px;
   /* position: relative; */
 
   .header {
@@ -18,7 +18,7 @@ const SectionHolder = styled.div`
     column-gap: 5px;
     align-items: center;
     background: ${(props) => props.theme.backgroundColor};
-    padding: 0 5px;
+    padding: 0 5px 5px;
     font-weight: bold;
     color: ${(props) => props.theme.primaryColor};
     border-bottom: 1px solid ${(props) => Color(props.theme.fontColor).alpha(0.25).toString()};

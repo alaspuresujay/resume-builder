@@ -2,7 +2,10 @@ import React from 'react';
 import { Flex } from 'src/styles/styles';
 import styled from 'styled-components';
 
-const Container = styled.section``;
+const Container = styled.section`
+  padding: 0 10px;
+  flex: 0.5;
+`;
 
 const EducationContainer = styled.section`
   &:not(:last-of-type) {
